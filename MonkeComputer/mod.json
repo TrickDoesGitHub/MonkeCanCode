@@ -1,0 +1,40 @@
+{
+  "_QPVersion": "0.1.1",
+  "id": "MonkeComputer",
+  "name": "Monke Computer",
+  "author": "RedBrumbler",
+  "description": "A library that adds the possibility to add a custom computer\nNeeds an activating mod to work",
+  "coverImage": "cover.png",
+  "version": "1.6.2",
+  "packageId": "com.AnotherAxiom.GorillaTag",
+  "packageVersion": "1.1.0",
+  "isLibrary": true,
+  "modFiles": [],
+  "libraryFiles": [
+    "libbeatsaber-hook_2_3_2.so",
+    "libcustom-types.so",
+    "libquest-cosmetic-loader_0_2_3.so",
+    "libzip.so",
+    "libmonkecomputer.so",
+    "libbeatsaber-hook_2_3_0.so"
+  ],
+  "fileCopies": [
+    {
+      "name": "Monitor.package",
+      "destination": "/sdcard/ModData/com.AnotherAxiom.GorillaTag/Mods/MonkeComputer/Monitor.package"
+    }
+  ],
+  "dependencies": [
+    {
+      "id": "monkecodegen",
+      "version": ">=0.9.0",
+      "downloadIfMissing": "https://github.com/RedBrumbler/MonkeCodegen/releases/download/v0.9.0/MonkeCodegen.qmod"
+    },
+    {
+      "id": "gorillautils",
+      "version": ">=0.2.4",
+      "downloadIfMissing": "https://github.com/RedBrumbler/GorillaUtils/releases/download/v0.2.4/GorillaUtils.qmod"
+    }
+  ],
+  "isInstalled": true
+}
